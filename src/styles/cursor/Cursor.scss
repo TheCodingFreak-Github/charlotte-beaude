@@ -1,0 +1,22 @@
+.cursor{
+  position: absolute;
+  z-index: 99;
+  .cursor-content{
+    .cursor-content-imgs{
+      width: 253px;
+      height: 316px;
+      position: absolute;
+      overflow: hidden;
+      transition: 0.08s;
+      margin-top: -1rem;
+      margin-left: -1rem;
+      img{
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        position: absolute;
+        width: 150%;
+      }
+    }
+  }
+}
